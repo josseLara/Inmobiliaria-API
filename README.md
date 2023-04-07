@@ -9,7 +9,6 @@ propiedadesRouter.get('/',getAllPropiedadesController,getPropiedad);
 propiedadesRouter.get('/:id') = EgetIdPropiedadesController,getPropiedad);
 propiedadesRouter.post('/agregar',getAddSolvedController);
 propiedadesRouter.patch('/:id',patchPropiedadController);: 
-
 propiedadesRouter.delete('/:id',deletePropiedadController);
 
 ```
