@@ -39,8 +39,8 @@ connection.connect((error) => {
 });
 ```
 
-*Este código establece una conexión a una base de datos local MySQL. Utiliza la biblioteca "mysql" de JavaScript para crear una conexión con los detalles de la base de datos, como la dirección del servidor, el usuario, la contraseña y el nombre de la base de datos.
+* Este código establece una conexión a una base de datos local MySQL. Utiliza la biblioteca "mysql" de JavaScript para crear una conexión con los detalles de la base de datos, como la dirección del servidor, el usuario, la contraseña y el nombre de la base de datos.
 
-*La primera sección define la información de la base de datos local. Se establece una conexión con la base de datos MySQL usando los detalles definidos en el objeto "connection". Esto incluye el nombre de host, el usuario, la contraseña y el nombre de la base de datos.
+* La primera sección define la información de la base de datos local. Se establece una conexión con la base de datos MySQL usando los detalles definidos en el objeto "connection". Esto incluye el nombre de host, el usuario, la contraseña y el nombre de la base de datos.
 
-*La segunda sección establece la conexión a la base de datos utilizando la función "connect" proporcionada por la biblioteca MySQL. Si la conexión es exitosa, se imprimirá un mensaje de éxito en la consola; de lo contrario, se imprimirá un mensaje de error.
+* La segunda sección establece la conexión a la base de datos utilizando la función "connect" proporcionada por la biblioteca MySQL. Si la conexión es exitosa, se imprimirá un mensaje de éxito en la consola; de lo contrario, se imprimirá un mensaje de error.
